@@ -10,8 +10,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
+
+    /* overflow-y: scroll !important; */
 
 }
+
+/* .conatiner-outer{
+  height: 200px;
+} */
 
 
 /* login container */
@@ -77,13 +84,15 @@ body{
   }
   
 
+  
+
 
   /* .forgot:hover{
     color:rgb(12, 12, 111)
   } */
 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:450px){
     .box-area{
         margin:0 10px;
     }
@@ -96,16 +105,25 @@ body{
         /* margin-bottom: 15px; */
     }
     .left-box{
-        /* padding:20px;
-        margin-bottom: 20px;
-        visibility: hidden; */
-        /* display: flex; */
-        /* justify-content: center; */
         padding: 0px;
         height:0px;
         visibility: hidden;
     }
 
+    /* .main-container{
+      scale:1.5;
+    } */
+
+    
+
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  width: 100%;
+  /* padding-right: var(--bs-gutter-x,.75rem); */
+  /* padding-left: var(--bs-gutter-x,.75rem); */
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
 .fade-in {
